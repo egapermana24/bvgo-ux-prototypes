@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>BVGO — Inspection</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="existing.css"><link rel="stylesheet" href="inspection-app.css">
+  <script defer src="lottie_svg.min.js"></script>
+  <script defer src="navigation.js"></script>
+  <script defer src="inspection-app.js"></script>
+</head>
+<body class="existing-preview inspection-app">
+  <div class="app" id="existing-app">
+    <header id="existing-header"></header>
+    <main id="existing-content" tabindex="-1"></main>
+    <div id="inspection-sticky" hidden></div><nav id="existing-nav" class="bottom-nav" aria-label="Navigasi utama"></nav>
+    <div class="home-indicator" aria-hidden="true"><span></span></div>
+    <dialog id="existing-sheet" aria-labelledby="existing-sheet-title"></dialog>
+  </div>
+  <div class="demo-controls" aria-label="Kontrol prototype, bukan bagian aplikasi"><button id="previous" aria-label="Kartu sebelumnya">↑ Sebelumnya</button><span id="position" aria-live="polite"></span><button id="next" aria-label="Kartu berikutnya">Berikutnya ↓</button></div>
+  <div id="existing-status" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
