@@ -9,3 +9,5 @@
 .response-sheet-title{font-size:16px;font-weight:600;line-height:1.5;margin-bottom:12px}.response-sheet .compact-context{text-align:left;margin-bottom:20px}.response-sheet-choices{display:flex;gap:12px}.response-sheet-choices .existing-toggle{flex:1;width:auto;min-width:0;font-size:14px;gap:8px;padding:12px 8px}.response-sheet .existing-comments{font-size:14px;margin-top:10px}
 
 .existing-preview main.feed-mode{position:relative}.floating-response:disabled{cursor:default}
+
+.floating-response,.floating-response.is-recorded{color:#fff;border:1px solid #fff}
